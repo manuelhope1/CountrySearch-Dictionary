@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  word-wrap: break-word;
+}
+.body {
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-image: url("./images/back3.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.bodyh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.box {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border: 5px solid rgb(5, 1, 9);
+  display: inline;
+}
+
+.searchbox {
+  margin-top: 10px;
+  border: 1px solid #4a6fa5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.search {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.search::placeholder {
+  font-family: "Montserrat", sans-serif;
+  color: #999999;
+}
+
+.bsea {
+  border: none;
+  border-radius: 50% !important;
+  background-color: #4a6fa5;
+}
+
+.sett {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.c-but {
+  border: none;
+  background-color: #e9afa3;
+  border-radius: 10px;
+  color: white;
+  margin-right: 5px;
+}
+
+.d-but {
+  border: none;
+  background-color: #545677;
+  border-radius: 10px;
+  color: white;
+  margin-left: 5px;
+}
+
+.imgflag {
+  width: 50%;
+  padding: 10px 0;
+}
+
+.cname {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.info-wrap {
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 0.5px;
+}
+.info-wrap h5 {
+  font-family: "Montserrat", sans-serif;
+}
+.info-wrap span {
+  font-family: "Poppins", sans-serif;
+  padding-left: 3px;
+}
+
+.errori {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.copyy {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
