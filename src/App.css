@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=PT+Serif:wght@700&display=swap");
 * {
-  margin: 0;
   word-wrap: break-word;
 }
 .body {
@@ -114,4 +114,53 @@
 .copyy {
   font-family: "Poppins", sans-serif;
   text-align: center;
+}
+
+.wordinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.wordinfo h3 {
+  text-transform: capitalize;
+  font-family: "PT Serif", serif;
+}
+.talk {
+  background-color: transparent;
+  border: none;
+}
+
+.talk i {
+  color: #08b2e3;
+}
+
+.details {
+  display: flex;
+  gap: 10px;
+  color: #a5a5a5;
+  font-family: "Poppins", sans-serif;
+}
+.details p {
+  margin: 0 !important;
+}
+
+.worddoc p {
+  margin: 0;
+}
+
+.w-mean {
+  margin-top: 20px !important;
+  font-family: "Manrope", sans-serif;
+}
+
+.w-example {
+  font-family: "Manrope", sans-serif;
+  font-style: italic;
+  color: #08b2e3;
+  border-left: 5px solid #08b2e3;
+  margin-top: 30px !important;
+  margin-bottom: 20px !important;
+  padding-left: 20px;
 }
